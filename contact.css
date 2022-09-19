@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body,html{
+    background: url('https://media.istockphoto.com/photos/contact-us-picture-id1049658692?k=20&m=1049658692&s=170667a&w=0&h=5PnJBTcgngYMfl3xRC3TeH8-RyoWaiUGcpTG_2_qDf4=')no-repeat center center/cover;
+height:93%;
+}
+/* SECTION 1(NAV SECTION) */
+#logo h1{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 19px;
+    margin-right: 3px;
+    border-radius: 9px;
+    font-size: 2.1rem;
+    position: absolute;
+    right: 0;
+    color:rgba(236, 156, 156, 0.712) ;
+
+}
+
+#navbar {
+    display: flex;
+    position: relative;
+    background-color:black;
+    box-shadow: 4px 1px 8px black;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    display: block;
+    color: rgb(255, 255, 255);
+    margin: 7px;
+    padding: 19px;
+    font-family: cursive;
+
+
+}
+
+#navbar ul li a:hover {
+    color: rgb(138, 164, 231);
+    text-shadow: 2px 2px 4px rgb(28, 98, 177);
+ font-weight: bold;
+ font-size: 1.4rem;
+}
+
+/* SECTION-2(CONTACT US SECTION) */
+.contact{
+    margin-top: 130px;
+    margin-left: 130px;
+    font-size: 2.3rem;
+    font-family: cursive;
+    color: white;
+}
+.help .form .mail,.help .form .query{
+font-size: 1.3rem;
+padding: 11px;
+margin-left: 130px;
+}
+.help .form .mail input,.help .form .query input{
+   padding: 12px;
+   border: 1px solid black;
+    }
+.btn{
+    margin: 12px;
+    margin-left: 158px;
+    padding: 12px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: cadetblue;
+  border: 2px solid cadetblue;
+}
+/* SECTION-3(FOOTER SECTION) */
+.last{
+    background-color: black;
+    height: 147px;
+    position: relative;
+    top: 27px;
+    color: white;
+}
+.last-content{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 21px;
+    font-size: 1.6rem;
+    font-family: monospace;
+    text-shadow: 2px 2px 3px gold;
+
+}
+.image img{
+    height: 50px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+

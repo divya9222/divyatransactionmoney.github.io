@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Accounts | Basic Banking System</title>
+    <link rel="stylesheet" href="transfer.css">
+</head>
+<body>
+
+<!--  SECTION-1(NAV SECTION) -->
+    <nav id="navbar">
+        <div id="logo">
+            <h1>World Bank</h1>
+        </div>
+        <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./transfer.html">TRANSFER MONEY</a></li>
+            <li><a href="./contact.html">CONTACT US</a></li>
+            </form>
+        </ul>
+    </nav>
+
+
+    <!--  SECTION-2(INTRO SECTION) -->
+     <section>
+        <div class="my_info">
+            <h2>Name:Divya</h2>
+            <h4>Net Bank Balance: INR <span id="myAccountBalance">10000</span></h4>
+    </div>
+    <div class="send_money">
+    <button id="send"  type="button">Send Money</button>
+    </div>
+    <div class="hide" id="show">
+        <form action=""  >
+             <div class="name">
+                <div class="input">Enter the email id</div>
+                <input type="text" class="input" id="enterName" placeholder="E-mail">
+                <span class="span">@gmail.com</span>
+            </div>
+            <div class="amount">
+                <div class="input">Enter the amount</div>
+                <input type="text" class="input" id="enterAmount" placeholder="Amount">
+                <span class="span">.00</span>
+            </div>
+            <button id="close">close</button>
+        </form>
+        <button id="sendMoney" onclick="sendMoney()">send money</button>
+    </div>
+    </section>
+  
+    
+    <!-- SECTION-3(ENTITIES NAME SECTION) -->
+    <section>
+   <div class="box">
+        <table class="table">
+            <thead>
+                <tr class="table-danger">
+                    <th>Sl. No.</th>
+                    <th>Name</th>
+                    <th>E-mail</th>
+                    <th>Bank Balance(in INR)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-light">
+                    <td >1</td>
+                    <td>Divya</td>
+                    <td>divya@email.com</td>
+                    <td>
+                        <p id="divyaBankBalance">4500</p>
+                    </td>
+                </tr>
+                <tr class="table-info">
+                    <td >2</td>
+                    <td>Deepak</td>
+                    <td>deepak@email.com</td>
+                    <td>
+                        <p id="deepakBankBalance">24000</p>
+                    </td>
+                </tr>
+                <tr class="table-light">
+                    <td>3</td>
+                    <td>Abhishek</td>
+                    <td>abhishek@email.com</td>
+                    <td>
+                        <p id="abhishekBankBalance">3400</p>
+                    </td>
+                </tr>
+                <tr class="table-info">
+                    <td>4</td>
+                    <td>Anubhuti</td>
+                    <td>anubhuti@email.com</td>
+                    <td>
+                        <p id="anubhutiBankBalance">4000</p>
+                    </td>
+                </tr>
+                <tr class="table-light">
+                    <td>5</td>
+                    <td>Deepanshi</td>
+                    <td>deepanshi@email.com</td>
+                    <td>
+                        <p id="deepanshiBankBalance">6300</p>
+                    </td>
+                </tr>
+                <tr class="table-info">
+                    <td>6</td>
+                    <td>Vinay</td>
+                    <td>vinay@email.com</td>
+                    <td>
+                        <p id="vinayBankBalance">1003</p>
+                    </td>
+                </tr>
+                <tr class="table-light">
+                    <td>7</td>
+                    <td>Sakshi</td>
+                    <td>sakshi@email.com</td>
+                    <td>
+                        <p id="sakshiBankBalance">5600</p>
+                    </td>
+                </tr>
+                <tr class="table-info">
+                    <td >8</td>
+                    <td>Harshita</td>
+                    <td>harshita@email.com</td>
+                    <td>
+                        <p id="harshitaBankBalance">35603</p>
+                    </td>
+                </tr>
+                <tr class="table-light">
+                    <td>9</td>
+                    <td>Mahak</td>
+                    <td>mahak@email.com</td>
+                    <td>
+                        <p id="mahakBankBalance">8500</p>
+                    </td>
+                </tr>
+                <tr class="table-info">
+                    <td>10</td>
+                    <td>Vaibhav</td>
+                    <td>vaibhav@email.com</td>
+                    <td>
+                        <p id="vaibhavBankBalance">1350</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </section>
+    <!-- JAVASCRIPT SECTION -->
+  <script src="script.js"></script>
+</body>
+</html>

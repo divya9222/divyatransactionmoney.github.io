@@ -1,0 +1,116 @@
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    
+    }
+/* FIRST SECTION */
+    #logo h1{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        padding: 19px;
+        margin-right: 3px;
+        border-radius: 9px;
+        font-size: 2.1rem;
+        position: absolute;
+        right: 0;
+        color:rgba(236, 156, 156, 0.712) ;
+
+    }
+
+    #navbar {
+        display: flex;
+        position: relative;
+    }
+
+    #navbar ul {
+        display: flex;
+    }
+
+    #navbar ul li {
+        list-style: none;
+        font-size: 1.3rem;
+    }
+
+    #navbar ul li a {
+        text-decoration: none;
+        display: block;
+        color: rgb(255, 255, 255);
+        margin: 7px;
+        padding: 19px;
+        font-family: cursive;
+
+    
+    }
+
+    #navbar ul li a:hover {
+        color: rgb(138, 164, 231);
+        text-shadow: 2px 2px 4px rgb(28, 98, 177);
+     font-weight: bold;
+     font-size: 1.4rem;
+    }
+
+    #navbar::before {
+        content: "";
+        position: absolute;
+        background-color: black;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.4;
+    }
+
+    #navbar ul li a {
+        text-decoration: none;
+        display: block;
+        margin: 7px;
+        padding: 16px;
+    }
+    .home .second a  {
+        background-color: #f5deb363;
+        text-decoration: none;
+        padding: 12px;
+        margin: 7px;
+        color: white;
+        cursor: pointer;
+        border-radius: 16px;
+        font-size: 1.7rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+   /* SECOND SECTION */
+    .home .second a:hover{
+        font-size: 1.8rem;
+      background-color: lightskyblue;
+    }
+    .home .second{
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        padding: 19px;
+        margin:22px;
+        border-radius: 9px;
+        font-size: 1.7rem;
+        position: absolute;
+        right: 0;
+    }
+    .home .second h1, .home .second p {
+        margin: 3px;
+        padding: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+    }
+
+    .home::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background: url('https://d2poqm5pskresc.cloudfront.net/wp-content/uploads/2021/12/banking-services-featured.jpg')no-repeat  center/cover;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.90;
+    }
